@@ -56,7 +56,7 @@
 }
 
 /* colonne-x */
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 720px) {
   .col-md-1 {
     width: 8.33333%;
   }
@@ -95,7 +95,7 @@
   }
 }
 
-@media screen and (min-width: 960px) {
+@media screen and (min-width: 1024px) {
   .col-lg-1 {
     width: 8.33333%;
   }
@@ -208,7 +208,7 @@ body {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  padding: 1.5rem;
+  padding: 1.5rem 1rem;
 }
 
 .l-main-logo {

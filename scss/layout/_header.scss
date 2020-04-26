@@ -4,7 +4,7 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 1.5rem;
+    padding: 1.5rem 1rem;
 }
 
 //Logo ISLWeb
@@ -104,6 +104,6 @@
 }
 
 // MediaQueries - Desktop Version - Rien car Header identique à la version tablette
-@media screen and (min-width: 1200px){
+@media screen and (min-width: 1024px){
 
 }
