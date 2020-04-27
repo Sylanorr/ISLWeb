@@ -188,7 +188,7 @@ img {
 }
 
 html {
-  font-size: 16px;
+  font-size: 14px;
 }
 
 body {
@@ -196,6 +196,11 @@ body {
   max-width: 1140px;
   height: auto;
   margin: 0 auto;
+}
+
+p {
+  color: #777777;
+  font-weight: 300;
 }
 
 .l-main-header {

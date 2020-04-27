@@ -1,6 +1,6 @@
 // CSS générique devant s'appliquer sur l'intégralité du site
 html{
-    font-size: 16px;
+    font-size: 14px;
 }
 
 body{
@@ -8,4 +8,9 @@ body{
     max-width: 1140px;
     height: auto;
     margin: 0 auto;
+}
+
+p{
+    color: $text;
+    font-weight: 300;
 }
