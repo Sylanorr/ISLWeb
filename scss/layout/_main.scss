@@ -1,5 +1,50 @@
 // Main Section
 // M-Section-Presentation module
+.m-section-presentation{
+    h1{
+        text-transform: uppercase;
+        letter-spacing: 2px;
+        font-size: 1rem;
+    }
+
+    .img-container{
+        width: 60%;
+        height: auto;
+        margin: 0 auto;
+        padding-top: 4rem;
+        padding-bottom: 2rem;
+    }
+}
+
 .m-section-presentation-me{
     background: $background1;
+
+    h2{
+        font-size: 2rem;
+        text-transform: uppercase;
+        font-weight: 600;
+        margin: 0;
+    }
+}
+
+.m-section-presentation-aboutme{
+    .img-container{
+        width: 80%;
+        padding-top: 8rem;
+    }
+
+    h1{
+        letter-spacing: 0;
+    }
+
+    h2{
+        text-transform: uppercase;
+        font-size: 1.4rem;
+        font-weight: 600;
+    }
+}
+
+// Bouton section - Réalisé via Mixins 
+.m-section-button{
+    @include mix-section-button
 }

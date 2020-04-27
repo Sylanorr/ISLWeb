@@ -1,6 +1,11 @@
 // Header Layout 
-// Flex Header
 .l-main-header{
+    margin: 0;
+    padding: 0;
+}
+
+// Flex Header
+.l-main-header-flex{
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -62,7 +67,7 @@
     background: $color3;
     display: block;
     position: absolute;
-    top: 5rem;
+    top: 72px;
     right: 0;
     background: $background1;
     width: 100%;
@@ -79,7 +84,7 @@
     }
 
     .l-main-header{
-        padding: 1.5rem 3rem;
+        padding: 0
     }
     .l-main-nav{
         display: block;

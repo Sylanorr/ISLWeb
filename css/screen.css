@@ -187,15 +187,20 @@ img {
   height: auto;
 }
 
+a {
+  text-decoration: none;
+}
+
 html {
   font-size: 14px;
 }
 
 body {
   font-family: 'poppins', sans-serif;
-  max-width: 1140px;
+  width: 100%;
   height: auto;
   margin: 0 auto;
+  padding: 0 auto;
 }
 
 p {
@@ -203,7 +208,18 @@ p {
   font-weight: 300;
 }
 
+.wrap {
+  max-width: 1140px;
+  margin: 0 auto;
+  padding: 0 1rem;
+}
+
 .l-main-header {
+  margin: 0;
+  padding: 0;
+}
+
+.l-main-header-flex {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -264,7 +280,7 @@ p {
   background: #fff;
   display: block;
   position: absolute;
-  top: 5rem;
+  top: 72px;
   right: 0;
   background: #f7f7fd;
   width: 100%;
@@ -278,7 +294,7 @@ p {
     display: none;
   }
   .l-main-header {
-    padding: 1.5rem 3rem;
+    padding: 0;
   }
   .l-main-nav {
     display: block;
@@ -299,7 +315,62 @@ p {
   }
 }
 
+.m-section-presentation h1 {
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  font-size: 1rem;
+}
+
+.m-section-presentation .img-container {
+  width: 60%;
+  height: auto;
+  margin: 0 auto;
+  padding-top: 4rem;
+  padding-bottom: 2rem;
+}
+
 .m-section-presentation-me {
   background: #f7f7fd;
+}
+
+.m-section-presentation-me h2 {
+  font-size: 2rem;
+  text-transform: uppercase;
+  font-weight: 600;
+  margin: 0;
+}
+
+.m-section-presentation-aboutme .img-container {
+  width: 80%;
+  padding-top: 8rem;
+}
+
+.m-section-presentation-aboutme h1 {
+  letter-spacing: 0;
+}
+
+.m-section-presentation-aboutme h2 {
+  text-transform: uppercase;
+  font-size: 1.4rem;
+  font-weight: 600;
+}
+
+.m-section-button {
+  background: -webkit-gradient(linear, left top, right top, from(#8490ff), to(#62bdfc));
+  background: linear-gradient(to right, #8490ff, #62bdfc);
+  width: 11rem;
+  height: 2.8rem;
+  text-align: center;
+}
+
+.m-section-button a {
+  height: 2.8rem;
+  line-height: 2.8rem;
+  white-space: nowrap;
+  text-transform: uppercase;
+  font-size: 13px;
+  color: #fff;
+  font-weight: 500;
+  display: block;
 }
 /*# sourceMappingURL=screen.css.map */

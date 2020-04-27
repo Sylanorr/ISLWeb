@@ -5,12 +5,20 @@ html{
 
 body{
     font-family: 'poppins', sans-serif;
-    max-width: 1140px;
+    width: 100%;
     height: auto;
     margin: 0 auto;
+    padding: 0 auto;
 }
 
 p{
     color: $text;
     font-weight: 300;
+}
+
+// Balise Wrap pour respecter la taille imposée 
+.wrap{
+    max-width: 1140px;
+    margin: 0 auto;
+    padding: 0 1rem;
 }
