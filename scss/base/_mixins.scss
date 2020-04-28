@@ -1,7 +1,7 @@
 // Mixins
 
 // Mixins Bouton - m-section-button
-@mixin mix-section-button {
+@mixin mix-section-button{
     background: linear-gradient(to right, $bannerBg1, $bannerBg2);
     width: 11rem;
     height: 2.8rem;
@@ -17,4 +17,14 @@
         font-weight: 500;
         display: block;
     }
+}
+
+// Mixins Underline - Ligne de sous-titres infos articles
+@mixin mix-infos-underline{
+    width: 100%;
+    height: 1px;
+    display: block;
+    background: $underline;
+    opacity: 0.4;
+    margin-bottom: 2rem;
 }

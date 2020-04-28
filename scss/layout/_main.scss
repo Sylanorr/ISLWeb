@@ -8,7 +8,7 @@
     }
 
     .img-container{
-        width: 60%;
+        width: 65%;
         height: auto;
         margin: 0 auto;
         padding-top: 4rem;
@@ -29,7 +29,7 @@
 
 .m-section-presentation-aboutme{
     .img-container{
-        width: 80%;
+        width: 100%;
         padding-top: 8rem;
     }
 
@@ -42,9 +42,165 @@
         font-size: 1.4rem;
         font-weight: 600;
     }
+
+    p{
+        padding: 1rem 0;
+    }
 }
 
 // Bouton section - Réalisé via Mixins 
 .m-section-button{
     @include mix-section-button
+}
+
+// M-section-Services
+// M-section-Services Offer
+.m-section-services-offer{
+    padding: 6rem 1rem;
+    text-align: center;
+
+    h1{
+        font-size: 3rem;
+        font-weight: 600;
+        line-height: 3.5rem;
+        margin-bottom: 0;
+    }
+
+    i{
+        font-size: 2.5rem;
+        padding-bottom: 1rem;
+    }
+}
+
+.m-services-offer-item{
+    padding: 2.5rem 0;
+}
+
+// M-section-services-counter
+.m-section-services-counter{
+    text-align: center;
+    background: linear-gradient(to right, $bannerBg1, $bannerBg2);
+    padding: 7rem 0;
+}
+
+.m-services-counter-item{
+    padding: 2rem 0;
+
+    p{
+        color: $color3;
+        font-size: 16px;
+        font-weight: 400;
+        margin: 0;
+    }
+
+    .counter-item-text{
+        font-size: 3rem;
+        font-weight: 700;
+    }
+}
+
+// M-section-latestProjects
+.m-section-latestProjects{
+    padding: 6rem 0;
+    text-align: center;
+
+    h1{
+        font-size: 3rem;
+        font-weight: 600;
+        line-height: 3.5rem;
+        margin-bottom: 0;
+    }
+
+    h2{
+        font-weight: 600;
+        margin-bottom: 0;
+    }
+
+    h3{
+        padding-bottom: 8rem;
+        font-weight: 300;
+        color: $text;
+    }
+
+    p{
+        margin: 0;
+        padding-bottom: 2rem;
+    }
+}
+
+// M-section-latestPosts
+.m-section-latestPosts{
+    padding: 6rem 0;
+    background: $background1;
+    text-align: center;
+
+    h1{
+        font-size: 3rem;
+        font-weight: 600;
+        line-height: 3.5rem;
+        margin-bottom: 0;
+        text-transform: capitalize;
+    }
+
+    h2{
+        text-transform: uppercase;
+        font-weight: 600;
+    }
+
+    a{
+        color: $title;
+    }
+
+    .latestPosts-subtitle{
+        padding-bottom: 6rem;
+        font-weight: 300;
+        color: $text;
+    }
+}
+
+// M-section-latestPosts - m-latestPosts-article / Mise en forme des articles
+.m-latestPosts-article{
+    text-align: left;
+
+    p{
+        font-size: 16px;
+        text-align: left;
+    }
+}
+
+// M-section-latestsPosts - Système d'infos d'article
+.m-latestPosts-article-info{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: .5rem 0;
+
+    h3{
+        margin: 0;
+        padding-left: 1rem;
+    }
+
+    i{
+        color: $text;
+        padding-left: 1rem;
+    }
+
+    p{
+        font-size: 16px;
+        margin: 0;
+    }
+
+    img{
+        width: 30px;
+        height: 30px;
+    }
+
+    .article-info-date{
+        padding-left: 4rem;
+    }
+}
+
+// Ligne en dessous des infos de l'article - Créé via mixin
+.m-latestPosts-article-line{
+    @include mix-infos-underline
 }
