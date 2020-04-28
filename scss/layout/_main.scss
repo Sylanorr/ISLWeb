@@ -130,7 +130,8 @@
 
 // M-section-latestPosts
 .m-section-latestPosts{
-    padding: 6rem 0;
+    padding-top: 6rem;
+    padding-bottom: 10rem;
     background: $background1;
     text-align: center;
 
@@ -164,7 +165,6 @@
 
     p{
         font-size: 16px;
-        text-align: left;
     }
 }
 
@@ -177,7 +177,7 @@
 
     h3{
         margin: 0;
-        padding-left: 1rem;
+        padding-left: .5rem;
     }
 
     i{
@@ -203,4 +203,34 @@
 // Ligne en dessous des infos de l'article - Créé via mixin
 .m-latestPosts-article-line{
     @include mix-infos-underline
+}
+
+
+// M-section-sponsors
+.m-section-sponsors{
+    background: linear-gradient(to right, $bannerBg1, $bannerBg2);
+    padding: 7rem 0;
+    
+    h1{
+        display: none;
+    }
+
+    img{
+        width: 10rem;
+        height: auto;
+    }
+
+    .wrap{
+        display: flex;
+        justify-content: center;
+    }
+}
+
+.m-section-sponsors-item{
+    display: flex;
+}
+
+// On cache les logos en vue mobile et on en laisse qu'un seul via une div et un display:none
+.m-section-sponsors-hide{
+    display: none;
 }

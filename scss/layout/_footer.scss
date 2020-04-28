@@ -1,0 +1,32 @@
+// Footer Layout
+//
+// l-main-footer
+.l-main-footer{
+    background: $backgroundFooter;
+    padding: 6rem 0;
+
+    a{
+        color: $bannerBg1;
+    }
+}
+
+.l-main-footer-item{
+    h2{
+        font-size: 1.3rem;
+        color: $titleFooter;
+        padding-top: .5rem;
+        font-weight: 500;
+    }
+}
+
+.l-main-footer-social{
+    i{
+        color: $bannerBg1;
+        font-size: 1.5rem;
+        padding-right: 1rem;
+    }
+}
+
+.l-main-footer-copyright{
+    text-align: center;
+}
