@@ -230,6 +230,7 @@
 .m-section-sponsors{
     background: linear-gradient(to right, $bannerBg1, $bannerBg2);
     padding: 7rem 0;
+    text-align: center;
     
     h1{
         display: none;
@@ -244,10 +245,11 @@
         display: flex;
         justify-content: center;
     }
-}
 
-.m-section-sponsors-item{
-    display: flex;
+    ul{
+        margin: 0;
+        padding: 0;
+    }
 }
 
 // On cache les logos en vue mobile et on en laisse qu'un seul via une div et un display:none
@@ -278,9 +280,8 @@
         }
 
         img{
-            -webkit-flex: 0 0 auto;
-            -ms-flex: 0 0 auto;
-            flex: 0 0 auto;
+            width: 100%;
+            height: auto;
         }
 
         .presentation-me-text{

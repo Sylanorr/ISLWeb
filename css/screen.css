@@ -584,6 +584,7 @@ p {
   background: -webkit-gradient(linear, left top, right top, from(#8490ff), to(#62bdfc));
   background: linear-gradient(to right, #8490ff, #62bdfc);
   padding: 7rem 0;
+  text-align: center;
 }
 
 .m-section-sponsors h1 {
@@ -604,10 +605,9 @@ p {
           justify-content: center;
 }
 
-.m-section-sponsors-item {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
+.m-section-sponsors ul {
+  margin: 0;
+  padding: 0;
 }
 
 .m-section-sponsors-hide {
@@ -632,9 +632,8 @@ p {
     display: flex;
   }
   .m-section-presentation-me img {
-    -ms-flex: 0 0 auto;
-    -webkit-box-flex: 0;
-            flex: 0 0 auto;
+    width: 100%;
+    height: auto;
   }
   .m-section-presentation-me .presentation-me-text {
     padding-top: 3rem;
