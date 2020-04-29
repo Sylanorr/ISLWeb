@@ -337,6 +337,10 @@
     }
 
     // Main - .m-section-latestPosts
+    .m-section-latestPosts{
+        padding-bottom: 6rem;
+    }
+
     .m-latestPosts-article{
         padding: .7rem;
     }
@@ -349,6 +353,10 @@
 
         p{
             font-size: 12px;
+        }
+
+        i{
+            padding-left: .5rem;
         }
     }
 }

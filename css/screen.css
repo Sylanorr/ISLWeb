@@ -663,6 +663,9 @@ p {
   .m-section-latestProjects .m-latestProjects-item {
     padding: .7rem;
   }
+  .m-section-latestPosts {
+    padding-bottom: 6rem;
+  }
   .m-latestPosts-article {
     padding: .7rem;
   }
@@ -671,6 +674,9 @@ p {
   }
   .m-latestPosts-article-info p {
     font-size: 12px;
+  }
+  .m-latestPosts-article-info i {
+    padding-left: .5rem;
   }
 }
 
