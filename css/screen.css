@@ -634,16 +634,14 @@ input {
     height: auto;
     margin: 0 auto;
     padding: 0;
+    display: flex;
     display: -webkit-box;
     display: -ms-flexbox;
-    display: flex;
+    display: -webkit-flex;
   }
   .m-section-presentation-me img {
     width: 100%;
     height: auto;
-    -webkit-box-flex: 1;
-        -ms-flex: 1 0 auto;
-            flex: 1 0 auto;
   }
   .m-section-presentation-me .presentation-me-text {
     padding-top: 3rem;

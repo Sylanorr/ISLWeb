@@ -277,12 +277,15 @@
             margin: 0 auto;
             padding: 0;
             display: flex;
+            // Addon pour l'affichage correct des images avec flexbox sous Safari
+            display: -webkit-box;   
+            display: -ms-flexbox;  
+            display: -webkit-flex;
         }
 
         img{
             width: 100%;
             height: auto;
-            flex: 1 0 auto
         }
 
         .presentation-me-text{
