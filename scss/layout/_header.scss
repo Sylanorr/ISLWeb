@@ -79,8 +79,16 @@
 // MediaQueries
 // MediaQueries - Tablette Version - Min 720px
 @media screen and (min-width: 720px){
+    html{
+        font-size: 14px;
+    }
+
     .l-main-header-hamburger{
         display: none;
+    }
+
+    .l-main-header-flex{
+        padding: 1rem;
     }
 
     .l-main-header{
@@ -97,7 +105,8 @@
         a{
             color: $nav;
             letter-spacing: 0;
-            padding: 0 1rem;
+            padding: 0;
+            padding-left: 1rem;
             font-size: 12px;
             font-weight: 500;
         }
@@ -106,6 +115,12 @@
             color: $link;
         }
     } 
+
+    //Taille Logo ISLWeb
+    .l-main-logo{
+    width: 6rem;
+    height: auto;
+}
 }
 
 // MediaQueries - Desktop Version - Rien car Header identique à la version tablette

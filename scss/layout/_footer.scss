@@ -30,3 +30,41 @@
 .l-main-footer-copyright{
     text-align: center;
 }
+
+// Formulaire Mail et Button type submit - Mise en page avec flex
+.l-footer-form{
+
+    .l-footer-form-flex{
+        display: flex;
+        height: 3rem;
+    }
+
+    .l-footer-form-85{
+        flex: 1 1 auto;
+    }
+
+    .l-footer-form-15{
+        flex: 0 0 auto;
+    }
+
+    .l-footer-form-mail{
+        font-family: 'poppins', sans-serif;
+        font-size: 1rem;
+        border: 0;
+        width: 100%;
+        height: 100%;
+        margin: 0;
+        padding: 0;
+        padding-left: 1rem;
+    }
+
+    .l-footer-form-submit{
+        border: 0;
+        height: 100%;
+        width: 3rem;
+        background: linear-gradient(to right, $submitForm1, $submitForm2);
+        color: $color3;
+        padding: 0;
+        margin: 0;
+    }
+}

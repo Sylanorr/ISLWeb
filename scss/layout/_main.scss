@@ -25,6 +25,10 @@
         font-weight: 600;
         margin: 0;
     }
+
+    .presentation-me-text{
+        padding-top: 3rem;
+    }
 }
 
 .m-section-presentation-aboutme{
@@ -60,10 +64,15 @@
     text-align: center;
 
     h1{
-        font-size: 3rem;
+        font-size: 2.5rem;
         font-weight: 600;
         line-height: 3.5rem;
         margin-bottom: 0;
+    }
+
+    h2{
+        font-weight: 600;
+        font-size: 1.3rem;
     }
 
     i{
@@ -105,7 +114,7 @@
     text-align: center;
 
     h1{
-        font-size: 3rem;
+        font-size: 2.5rem;
         font-weight: 600;
         line-height: 3.5rem;
         margin-bottom: 0;
@@ -120,6 +129,7 @@
         padding-bottom: 8rem;
         font-weight: 300;
         color: $text;
+        font-size: 1rem;
     }
 
     p{
@@ -171,9 +181,9 @@
 // M-section-latestsPosts - Système d'infos d'article
 .m-latestPosts-article-info{
     display: flex;
-    align-items: center;
     justify-content: space-between;
     padding: .5rem 0;
+    font-size: 14px;
 
     h3{
         margin: 0;
@@ -186,17 +196,27 @@
     }
 
     p{
-        font-size: 16px;
         margin: 0;
+        padding-left: .3rem;
+    }
+
+    a{
+        display: flex;
     }
 
     img{
-        width: 30px;
-        height: 30px;
+        width: 2rem;
+        height: 2rem;
     }
 
-    .article-info-date{
-        padding-left: 4rem;
+    .article-info-left{
+        display: flex;
+        align-items: center;
+    }
+    
+    .article-info-right{
+        display: flex;
+        align-items: center;
     }
 }
 
@@ -233,4 +253,21 @@
 // On cache les logos en vue mobile et on en laisse qu'un seul via une div et un display:none
 .m-section-sponsors-hide{
     display: none;
+}
+
+// MediaQueries - Page Home
+// MediaQueries - Tablette Version - Min 720px
+@media screen and (min-width: 720px){
+
+    .m-section-presentation{
+        h2{
+            text-transform: uppercase;
+            font-size: 2.5rem;
+        }
+    }
+}
+
+// MediaQueries - Page Home - Desktop Version
+@media screen and (min-width: 1024px){
+
 }
