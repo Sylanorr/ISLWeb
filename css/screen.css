@@ -214,6 +214,12 @@ p {
   padding: 0 1rem;
 }
 
+/* Mise en forme correcte des Form/Boutons dans Safari */
+input[type="submit"] {
+  -moz-appearance: none;
+  -webkit-appearance: none;
+}
+
 .l-main-header {
   margin: 0;
   padding: 0;
@@ -325,7 +331,7 @@ p {
 
 @media screen and (min-width: 1024px) {
   .l-main-header-flex {
-    padding: 1.5rem 0;
+    padding: 1.5rem 1rem;
   }
   .l-main-logo {
     width: 9rem;
@@ -627,13 +633,13 @@ p {
     height: auto;
     margin: 0 auto;
     padding: 0;
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
   }
   .m-section-presentation-me img {
     width: 100%;
     height: auto;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
   }
   .m-section-presentation-me .presentation-me-text {
     padding-top: 3rem;

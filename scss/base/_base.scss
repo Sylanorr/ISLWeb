@@ -22,3 +22,9 @@ p{
     margin: 0 auto;
     padding: 0 1rem;
 }
+
+/* Mise en forme correcte des Form/Boutons dans Safari */
+input[type="submit"]{
+    -moz-appearance: none;
+    -webkit-appearance: none;
+}
