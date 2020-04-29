@@ -299,8 +299,9 @@ p {
   .l-main-header-flex {
     padding: 1rem;
   }
-  .l-main-header {
-    padding: 0;
+  .l-main-logo {
+    width: 7.5rem;
+    height: auto;
   }
   .l-main-nav {
     display: block;
@@ -320,8 +321,14 @@ p {
   .l-main-nav a:hover {
     color: #8490ff;
   }
+}
+
+@media screen and (min-width: 1024px) {
+  .l-main-header-flex {
+    padding: 1.5rem 0;
+  }
   .l-main-logo {
-    width: 6rem;
+    width: 9rem;
     height: auto;
   }
 }
@@ -570,7 +577,7 @@ p {
   display: block;
   background: #c4c4c4;
   opacity: 0.4;
-  margin-bottom: 3rem;
+  margin-bottom: 1.5rem;
 }
 
 .m-section-sponsors {
@@ -624,6 +631,11 @@ p {
     display: -ms-flexbox;
     display: flex;
   }
+  .m-section-presentation-me img {
+    -ms-flex: 0 0 auto;
+    -webkit-box-flex: 0;
+            flex: 0 0 auto;
+  }
   .m-section-presentation-me .presentation-me-text {
     padding-top: 3rem;
   }
@@ -635,9 +647,8 @@ p {
   }
   .m-section-presentation-aboutme .img-container {
     padding: 0;
-  }
-  .m-section-presentation-aboutme img {
-    padding-top: 6rem;
+    width: 90%;
+    height: 100%;
   }
   .m-section-services-offer {
     padding: 4rem 1rem;
@@ -678,10 +689,52 @@ p {
   .m-latestPosts-article-info i {
     padding-left: .5rem;
   }
+  .m-section-sponsors {
+    padding: 5rem 0;
+    text-align: center;
+  }
+  .m-section-sponsors-all .m-section-sponsors-hide {
+    display: block;
+  }
+  .m-section-sponsors-all ul {
+    margin: 0;
+    padding: 0;
+  }
+  .m-section-sponsors-all li {
+    display: inline-block;
+    height: auto;
+    padding: 0 1.5rem;
+  }
+  .m-section-sponsors-all img {
+    max-width: 7rem;
+    height: auto;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .offered-services-subtitle {
+    margin: 1rem 18rem;
+  }
+  .m-section-services-counter {
+    padding: 7rem 0;
+  }
+  .m-section-services-counter .counter-item-text {
+    font-size: 2.5rem;
+  }
+  .m-section-latestProjects .m-latestProjects-item {
+    padding: 1rem;
+  }
+  .latestPosts-subtitle {
+    margin: 0 11rem;
+    padding-top: 1.5rem;
+  }
+  .m-section-sponsors-all li {
+    padding: 0 3.5rem;
+  }
 }
 
 .l-main-footer {
-  background: #00062b;
+  background: #05071C;
   padding: 6rem 0;
 }
 
@@ -745,5 +798,16 @@ p {
   color: #fff;
   padding: 0;
   margin: 0;
+}
+
+@media screen and (min-width: 720px) {
+  .l-main-footer-item {
+    padding: 0 2rem;
+  }
+  .l-main-footer-copyright {
+    margin: 0 auto;
+    padding-top: 2rem;
+    opacity: 0.8;
+  }
 }
 /*# sourceMappingURL=screen.css.map */

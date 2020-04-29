@@ -91,9 +91,12 @@
         padding: 1rem;
     }
 
-    .l-main-header{
-        padding: 0
-    }
+    //Taille Logo ISLWeb
+    .l-main-logo{
+        width: 7.5rem;
+        height: auto;
+        }
+
     .l-main-nav{
         display: block;
 
@@ -115,15 +118,18 @@
             color: $link;
         }
     } 
-
-    //Taille Logo ISLWeb
-    .l-main-logo{
-    width: 6rem;
-    height: auto;
-}
 }
 
 // MediaQueries - Desktop Version - Rien car Header identique à la version tablette
 @media screen and (min-width: 1024px){
 
+    .l-main-header-flex{
+        padding: 1.5rem 0;
+    }
+
+    //Taille Logo ISLWeb
+    .l-main-logo{
+        width: 9rem;
+        height: auto;
+        }
 }

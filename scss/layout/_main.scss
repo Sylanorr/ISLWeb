@@ -277,6 +277,12 @@
             display: flex;
         }
 
+        img{
+            -webkit-flex: 0 0 auto;
+            -ms-flex: 0 0 auto;
+            flex: 0 0 auto;
+        }
+
         .presentation-me-text{
             padding-top: 3rem;
         }
@@ -292,10 +298,8 @@
 
         .img-container{
             padding: 0;
-        }
-
-        img{
-            padding-top: 6rem;
+            width: 90%;
+            height: 100%;
         }
     }
 
@@ -359,9 +363,66 @@
             padding-left: .5rem;
         }
     }
+
+    // Main - m-section-sponsors
+    .m-section-sponsors{
+        padding: 5rem 0;
+        text-align: center;
+    }
+
+    .m-section-sponsors-all{
+        .m-section-sponsors-hide{
+           display: block;
+        }
+
+        ul{
+            margin: 0;
+            padding: 0;
+
+        }
+
+        li{
+            display: inline-block;
+            height: auto;
+            padding: 0 1.5rem;
+        }
+
+        img{
+            max-width: 7rem;
+            height: auto;
+        }
+    }
 }
 
 // MediaQueries - Page Home - Desktop Version
 @media screen and (min-width: 1024px){
 
+    .offered-services-subtitle{
+        margin: 1rem 18rem;
+    }
+
+    .m-section-services-counter{
+        padding: 7rem 0;
+
+        .counter-item-text{
+            font-size: 2.5rem;
+        }
+    }
+
+    .m-section-latestProjects{
+        .m-latestProjects-item{
+            padding: 1rem;
+        }
+    }
+
+    .latestPosts-subtitle {
+        margin: 0 11rem;
+        padding-top: 1.5rem;
+    }
+
+    .m-section-sponsors-all{
+        li{
+            padding: 0 3.5rem;
+        }
+    }
 }

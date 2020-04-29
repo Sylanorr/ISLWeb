@@ -68,3 +68,22 @@
         margin: 0;
     }
 }
+
+// MediaQueries - Footer
+// MediaQueries - Tablette Version - Min 720px
+@media screen and (min-width: 720px){
+    .l-main-footer-item{
+        padding: 0 2rem
+    }
+
+    .l-main-footer-copyright{
+        margin: 0 auto;
+        padding-top: 2rem;
+        opacity: 0.8;
+    }
+}
+
+// MediaQueries - Page Home - Desktop Version
+@media screen and (min-width: 1024px){
+
+}
