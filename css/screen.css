@@ -612,6 +612,66 @@ p {
     text-transform: uppercase;
     font-size: 2.5rem;
   }
+  .m-section-presentation-me {
+    padding-top: 3rem;
+  }
+  .m-section-presentation-me .img-container {
+    width: 80%;
+    height: auto;
+    margin: 0 auto;
+    padding: 0;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+  .m-section-presentation-me .presentation-me-text {
+    padding-top: 3rem;
+  }
+  .m-section-presentation-aboutme {
+    padding-top: 5rem;
+  }
+  .m-section-presentation-aboutme h2 {
+    margin: 0;
+  }
+  .m-section-presentation-aboutme .img-container {
+    padding: 0;
+  }
+  .m-section-presentation-aboutme img {
+    padding-top: 6rem;
+  }
+  .m-section-services-offer {
+    padding: 4rem 1rem;
+  }
+  .offered-services-subtitle {
+    margin: 1rem 5rem;
+  }
+  .m-services-offer-all {
+    padding-top: 2rem;
+  }
+  .m-services-offer-item {
+    padding: 2rem;
+  }
+  .m-section-services-counter {
+    padding: 5rem 0;
+  }
+  .m-section-services-counter .counter-item-text {
+    font-size: 2rem;
+  }
+  .m-section-latestProjects h3 {
+    padding-bottom: 6rem;
+  }
+  .m-section-latestProjects .m-latestProjects-item {
+    padding: .7rem;
+  }
+  .m-latestPosts-article {
+    padding: .7rem;
+  }
+  .m-latestPosts-article-info h3 {
+    font-size: 12px;
+  }
+  .m-latestPosts-article-info p {
+    font-size: 12px;
+  }
 }
 
 .l-main-footer {
