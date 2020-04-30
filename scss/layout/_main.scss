@@ -277,6 +277,7 @@
             margin: 0 auto;
             padding: 0;
             display: flex;
+            // Les 2 lignes ci-dessous sont ajoutées pour régler le ratio image lié à Safari (Bug)
             align-items: flex-start;
             flex-direction: column;
         }
