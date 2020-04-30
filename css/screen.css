@@ -634,19 +634,20 @@ input {
     height: auto;
     margin: 0 auto;
     padding: 0;
-    display: flex;
-    /* NEW, Spec - Firefox, Chrome, Opera */
     display: -webkit-box;
-    /* OLD - iOS 6-, Safari 3.1-6, BB7 */
     display: -ms-flexbox;
-    /* TWEENER - IE 10 */
-    display: -webkit-flex;
-    /* NEW - Safari 6.1+. iOS 7.1+, BB10 */
+    display: flex;
+    -webkit-box-align: start;
+        -ms-flex-align: start;
+            align-items: flex-start;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
   }
   .m-section-presentation-me img {
-    min-width: 0;
-    min-height: 0;
-    overflow: hidden;
+    width: 100%;
+    height: auto;
   }
   .m-section-presentation-me .presentation-me-text {
     padding-top: 3rem;

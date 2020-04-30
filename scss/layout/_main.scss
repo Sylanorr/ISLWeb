@@ -276,16 +276,14 @@
             height: auto;
             margin: 0 auto;
             padding: 0;
-            display: flex;         /* NEW, Spec - Firefox, Chrome, Opera */
-            display: -webkit-box;   /* OLD - iOS 6-, Safari 3.1-6, BB7 */
-            display: -ms-flexbox;  /* TWEENER - IE 10 */
-            display: -webkit-flex; /* NEW - Safari 6.1+. iOS 7.1+, BB10 */
+            display: flex;
+            align-items: flex-start;
+            flex-direction: column;
         }
 
         img{
-            min-width: 0;
-            min-height: 0;
-            overflow:hidden
+            width: 100%;
+            height: auto;
         }
 
         .presentation-me-text{
