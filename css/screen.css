@@ -644,8 +644,8 @@ input {
     /* NEW - Safari 6.1+. iOS 7.1+, BB10 */
   }
   .m-section-presentation-me img {
-    width: 100%;
-    height: auto;
+    min-width: 0;
+    min-height: 0;
   }
   .m-section-presentation-me .presentation-me-text {
     padding-top: 3rem;
