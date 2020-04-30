@@ -646,6 +646,7 @@ input {
   .m-section-presentation-me img {
     min-width: 0;
     min-height: 0;
+    overflow: hidden;
   }
   .m-section-presentation-me .presentation-me-text {
     padding-top: 3rem;
