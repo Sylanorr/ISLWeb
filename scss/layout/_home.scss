@@ -1,4 +1,4 @@
-// Main Section
+// Page Home
 // M-Section-Presentation module
 .m-section-presentation{
     h1{
@@ -290,8 +290,8 @@
     display: none;
 }
 
-// MediaQueries - Page Home
 // MediaQueries - Tablette Version - Min 720px
+// MediaQueries - Page Home
 @media screen and (min-width: 720px){
     //Section presentation
     .m-section-presentation{
@@ -449,6 +449,13 @@
     .m-section-latestProjects{
         .m-latestProjects-item{
             padding: 1rem;
+        }
+    }
+
+    .m-latestPosts-article-info{
+
+        h3,.article-info-date,p{
+            font-size: 1rem;
         }
     }
 

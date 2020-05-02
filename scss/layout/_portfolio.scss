@@ -1,0 +1,44 @@
+// Page Portfolio
+.m-section-general{
+    background: linear-gradient(to right, $bannerBg1, $bannerBg2);
+    text-align: center;
+    color: $sectionPageTitle;
+    padding: 6rem;
+
+    h1{
+        font-weight: 600;
+        font-size: 3rem;
+        margin: 0;
+    }
+
+    ul{
+        margin: 0;
+        padding: 0;
+    }
+
+    li{
+        display: inline-block;
+        padding: 0 .5rem;
+    }
+
+    a{
+        text-decoration: none;
+        color: $sectionPageTitle;
+    }
+
+    a:hover{
+        font-weight: 500;
+        text-decoration: underline;
+    }
+}
+
+// MediaQueries Portfolio
+// MediaQueries - Tablette Version - Min 720px
+@media screen and (min-width: 720px){
+
+}
+
+// MediaQueries - Page Home - Desktop Version
+@media screen and (min-width: 1024px){
+
+}
