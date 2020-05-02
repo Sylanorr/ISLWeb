@@ -284,10 +284,9 @@ input {
 }
 
 .l-main-nav.is-active {
-  background: #fff;
   display: block;
   position: absolute;
-  top: 72px;
+  top: 80px;
   right: 0;
   background: #f7f7fd;
   width: 100%;
@@ -483,6 +482,49 @@ input {
 .m-section-latestProjects p {
   margin: 0;
   padding-bottom: 2rem;
+}
+
+.m-latestProjects-img-container {
+  position: relative;
+  width: 100%;
+  height: auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.m-latestProjects-img-container .latestProjects-item-overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  -webkit-transition: .5s ease;
+  transition: .5s ease;
+  background: -webkit-gradient(linear, left top, right top, from(#8490ff), to(#62bdfc));
+  background: linear-gradient(to right, #8490ff, #62bdfc);
+  border-radius: 11px;
+}
+
+.m-latestProjects-img-container .latestProjects-item-overlay img {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: none;
+     object-fit: none;
+}
+
+.m-latestProjects-img-container .latestProjects-item-overlay:hover {
+  opacity: .8;
 }
 
 .m-section-latestPosts {
