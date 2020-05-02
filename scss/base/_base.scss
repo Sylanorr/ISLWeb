@@ -24,7 +24,7 @@ p{
 }
 
 /* Mise en forme correcte des Form/Boutons dans Safari */
-input{
+input,textarea{
     -moz-appearance: none;
     -webkit-appearance: none;
     border-radius: 0;
