@@ -1130,7 +1130,8 @@ input, textarea {
   .feedback-quote {
     margin-left: 1rem;
     margin-right: 1rem;
-    height: 12rem;
+    height: 100%;
+    max-height: 13rem;
   }
 }
 
