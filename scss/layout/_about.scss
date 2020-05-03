@@ -1,0 +1,158 @@
+// Page About
+.m-section-presentation-aboutme{
+    h1{
+        font-size: 1rem;
+        text-transform: uppercase;
+        margin-bottom: 0;
+    }
+
+    h2{
+        font-size: 1.5rem;
+        margin-top: 1.5rem;
+    }
+}
+.m-section-contact-paragraph{
+    padding: 2rem 0;
+}
+
+// Barre compétences
+.m-section-contact-skillsBar{
+    padding-bottom: 8rem;
+
+    h3{
+        font-weight: 600;
+    }
+
+    p{
+        text-align: right;
+        font-weight: 400;
+        margin-bottom: .4rem;
+    }
+}
+
+.skillsbar-item-border{
+    @include skill-bar-border
+}
+
+.skillsbar-item-inside-1{
+    @include skill-bar-inside;
+    width: 85%;
+}
+
+.skillsbar-item-inside-2{
+    @include skill-bar-inside;
+    width: 90%
+}
+
+.skillsbar-item-inside-3{
+    @include skill-bar-inside;
+    width: 70%
+}
+
+.skillsbar-item-inside-4{
+    @include skill-bar-inside;
+    width: 95%;
+}
+
+.skillsbar-item-inside-5{
+    @include skill-bar-inside;
+    width: 85%;
+}
+
+// Section Feedback client
+.m-section-contact-feedback{
+
+    .feedback-quote{
+        background: $color3;
+    }
+}
+
+// MediaQueries - Tablette Version - Min 720px
+// MediaQueries - Page About
+@media screen and (min-width: 720px){
+    .m-section-contact-feedback{
+        h2{
+            font-size: 2.5rem;
+        }
+    }
+
+    .skillsBar-item{
+        padding-right: 2rem;
+    }
+}
+
+// Section Feedback client
+.m-section-contact-feedback{
+    background: $background1;
+
+    .wrap{
+        padding: 0;
+    }
+}
+
+.contact-feedback-title{
+    text-align: center;
+    padding: 5rem 0;
+
+    h2{
+        font-weight: 600;
+        margin-bottom: 0;
+        font-size: 2.5rem;
+    }
+
+    p{
+        margin-top: .5rem;
+    }
+}
+.feedback-quote.is-not-visible{
+    display: none;
+}
+
+.feedback-quote{
+    padding: 2rem 3rem;
+    padding-left: 5rem;
+    margin-bottom: 7rem;
+    position: relative;
+    display: block;
+
+    .feedback-quote-author{
+        font-weight: 600;
+        color: $title;
+        margin-top: 1rem;
+        font-size: 1.2rem;
+    }
+
+    p{
+        margin: 0;
+    }
+
+    img{
+        position: absolute;
+        width: 2rem;
+        height: auto;
+        top: 2.5rem;
+        left: 2rem;
+    }
+}
+
+// MediaQueries - Tablette Version - Min 720px
+// MediaQueries - Page About
+@media screen and (min-width: 720px){
+
+    .feedback-quote.is-not-visible{
+        display: block;
+    }
+
+    .feedback-quote{
+        margin-left: 1rem;
+        margin-right: 1rem;
+        height: 12rem;
+    }
+}
+
+// MediaQueries - PC Version - Min 1024px
+// MediaQueries - Page About
+
+@media screen and (min-width: 1024px){
+    //Rien car identique à la version tablette
+}

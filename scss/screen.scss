@@ -1,10 +1,13 @@
 @import "tools/grid";
+
 @import "base/reset";
 @import "base/variables";
 @import "base/mixins";
 @import "base/base";
+
 @import "layout/header";
 @import "layout/home";
 @import "layout/portfolio";
 @import "layout/contact";
+@import "layout/about";
 @import "layout/footer";
