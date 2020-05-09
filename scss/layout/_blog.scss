@@ -1,3 +1,96 @@
+// Page Blog - CSS
+
+// Mixin générique ligne blog
 .m-blog-line{
     @include mix-infos-underline;
+}
+
+//Banner Blog
+.m-blog-banner-background{
+    position: relative;
+    text-align: center;
+    background-image: url(/img/blog/blog-home-banner.jpg);
+    background-position: bottom;
+    background-repeat: no-repeat;
+    padding: 15rem 1rem;
+
+    h1{
+        font-weight: 600;
+        font-size: 2rem;
+        color: $bannerText;
+        margin: 0;
+        position: relative;
+    }
+
+    p{
+        color: $bannerText;
+        position: relative;
+    }
+
+    .m-section-button-blog{
+        @include mix-section-button-blog;
+        position: relative;
+    }
+}
+
+// Opacité du Banner Blog via rgba
+.m-blog-banner-background::before{
+    content: '';
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    background: rgba(0,0,0,0.5);
+}
+
+// Blog Category - M-blog-category
+    .m-blog-category-item1{
+        background-image: url(/img/blog/cat-widget1.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        width: 100%;
+        height: 14rem;
+        position: relative;
+
+        .category-content{
+            background: rgba(0,0,0,0.8);
+            position: absolute;
+            margin: 1.5rem;
+            top: 0;
+            bottom: 0;
+            left: 0;
+            right: 0;
+            text-align: center;
+
+            h3{
+                color: $categoryColor;
+                text-transform: uppercase;
+                font-weight: 600;
+            }
+
+            p{
+                color: $categoryColor;
+                font-size: 1rem;
+            }
+
+            .m-category-line{
+                @include mix-blog-underline;
+            }
+        }
+}
+
+
+// MediaQueries - Tablette Version - Min 720px
+// MediaQueries - Page Blog
+@media screen and (min-width: 720px){
+    .m-blog-banner-background{
+        padding: 20rem 0;
+    }
+}
+
+// MediaQueries - PC Version - Min 1024px
+// MediaQueries - Page Blog
+@media screen and (min-width: 1024px){
+    
 }
