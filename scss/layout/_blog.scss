@@ -45,41 +45,52 @@
 }
 
 // Blog Category - M-blog-category
-    .m-blog-category-item1{
-        background-image: url("/img/blog/cat-widget1.jpg");
-        background-repeat: no-repeat;
-        background-size: cover;
-        width: 100%;
-        height: 14rem;
-        position: relative;
+.m-blog-category-item{
+    background-image: url("/img/blog/cat-widget1.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 360px;
+    height: 220px;
+    position: relative;
 
-        .category-content{
-            background: rgba(0,0,0,0.8);
-            position: absolute;
-            margin: 1.5rem;
-            top: 0;
-            bottom: 0;
-            left: 0;
-            right: 0;
-            text-align: center;
+    .category-content{
+        background: rgba(0,0,0,0.8);
+        position: absolute;
+        margin: 1.5rem;
+        top: 0;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        text-align: center;
+        display: flex;
+        flex-flow: column wrap;
+        justify-content: center;
 
-            h3{
-                color: $categoryColor;
-                text-transform: uppercase;
-                font-weight: 600;
-            }
-
-            p{
-                color: $categoryColor;
-                font-size: 1rem;
-            }
-
-            .m-category-line{
-                @include mix-blog-underline;
-            }
+        h3{
+            color: $categoryColor;
+            text-transform: uppercase;
+            font-weight: 600;
         }
+
+        p{
+            color: $categoryColor;
+            font-size: 1rem;
+        }
+
+        .m-category-line{
+            @include mix-blog-underline;
+        }
+    }
 }
 
+// modification des images des 2 autres catégories - .m-blog-category-item
+.category-item-2{
+    background-image: url("/img/blog/cat-widget2.jpg");
+}
+
+.category-item-3{
+    background-image: url("/img/blog/cat-widget3.jpg");
+}
 
 // MediaQueries - Tablette Version - Min 720px
 // MediaQueries - Page Blog
