@@ -9,7 +9,7 @@
 .m-blog-banner-background{
     position: relative;
     text-align: center;
-    background-image: url(/img/blog/blog-home-banner.jpg);
+    background-image: url("/img/blog/blog-home-banner.jpg");
     background-position: bottom;
     background-repeat: no-repeat;
     padding: 15rem 1rem;
@@ -46,7 +46,7 @@
 
 // Blog Category - M-blog-category
     .m-blog-category-item1{
-        background-image: url(/img/blog/cat-widget1.jpg);
+        background-image: url("/img/blog/cat-widget1.jpg");
         background-repeat: no-repeat;
         background-size: cover;
         width: 100%;
