@@ -1142,6 +1142,15 @@ input, textarea {
   }
 }
 
+.m-blog-line {
+  width: 100%;
+  height: 1px;
+  display: block;
+  background: #c4c4c4;
+  opacity: 0.4;
+  margin-bottom: 1.5rem;
+}
+
 .l-main-footer {
   background: #05071C;
   padding: 6rem 0;
