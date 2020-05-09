@@ -22,9 +22,10 @@
 // Mixins Bouton - Section Blog - m-section-button-blog
 @mixin mix-section-button-blog {
     background: $buttonBlog;
-    width: 10rem;
+    width: 9.5rem;
     height: 2.8rem;
     margin: 1.5rem auto;
+    text-align: center;
 
     a{
         height: 2.8rem;
@@ -53,7 +54,7 @@
     display: block;
     background: $underline;
     margin-bottom: 1.5rem;
-    margin: 0 auto;
+    margin: .5rem auto;
 }
 
 // Mixins Skill Bar - Utilisé dans page Contact

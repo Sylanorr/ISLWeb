@@ -5,6 +5,15 @@
     @include mix-infos-underline;
 }
 
+// Blog - General 
+.m-main-blog{
+    background: $blogBackground;
+}
+
+.m-main-blog .wrap{
+    padding: 0;
+}
+
 //Banner Blog
 .m-blog-banner-background{
     position: relative;
@@ -12,7 +21,7 @@
     background-image: url("../img/blog/blog-home-banner.jpg");
     background-position: bottom;
     background-repeat: no-repeat;
-    padding: 15rem 1rem;
+    padding: 14rem 1rem;
 
     h1{
         font-weight: 600;
@@ -45,14 +54,21 @@
 }
 
 // Blog Category - M-blog-category
+.m-blog-category{
+    padding: 4rem 0;
+}
+
+.m-blog-category-container{
+    padding: 2rem 1rem;
+}
+
 .m-blog-category-item{
     background-image: url("../img/blog/cat-widget1.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
     width: 100%;
-    height: 220px;
-    max-height: auto;
+    height: 14rem;
     position: relative;
 
     .category-content{
@@ -72,11 +88,13 @@
             color: $categoryColor;
             text-transform: uppercase;
             font-weight: 600;
+            margin: 0
         }
 
         p{
             color: $categoryColor;
             font-size: 1rem;
+            margin: 0;
         }
 
         .m-category-line{
@@ -85,7 +103,7 @@
     }
 }
 
-// modification des images des 2 autres catégories - .m-blog-category-item
+// modification des images des 2 autres catégories & .m-blog-category-item
 .category-item-2{
     background-image: url("../img/blog/cat-widget2.jpg");
 }
@@ -94,16 +112,105 @@
     background-image: url("../img/blog/cat-widget3.jpg");
 }
 
+// m-blog-article-section
+.m-blog-article-section{
+    padding: 0 1rem;
+}
+
+.article-aside-flex{
+    display: flex;
+    flex-flow: row wrap;
+
+    p{
+        flex-basis: 50%;
+        margin: 0;
+        padding: .5rem 0;
+    }
+
+    time{
+        flex-basis: 50%;
+        font-weight: 300;
+        color: $text;
+        padding: .5rem 0;
+    }
+
+    //Ajout des icones via CSS avec la propriété ::after
+    time::after{
+        padding-left: .5rem;
+        font-family: "Font Awesome 5 Free"; font-weight: 500; content: "\f073";
+        color: $blogIcon;
+    }
+
+    .article-aside-author::after{
+        padding-left: .5rem;
+        font-family: "Font Awesome 5 Free"; font-weight: 500; content: "\f007";
+        color: $blogIcon;
+    }
+
+    .article-aside-views::after{
+        padding-left: .5rem;
+        font-family: "Font Awesome 5 Free"; font-weight: 500; content: "\f06e";
+        color: $blogIcon;
+    }
+
+    .article-aside-comments::after{
+        padding-left: .5rem;
+        font-family: "Font Awesome 5 Free"; font-weight: 500; content: "\f075";
+        color: $blogIcon;
+    }
+}
+
+.m-blog-article-content{
+
+    h2{
+        font-size: 1.8rem;
+        text-transform: capitalize;
+        font-weight: 600;
+        line-height: 2rem;
+    }
+
+    .m-section-button-blog{
+        @include mix-section-button-blog;
+        margin: 0;
+        margin-bottom: 2rem;
+    }
+}
+
+
 // MediaQueries - Tablette Version - Min 720px
 // MediaQueries - Page Blog
 @media screen and (min-width: 720px){
     .m-blog-banner-background{
-        padding: 20rem 0;
+        padding: 17rem 0;
+    }
+
+    .m-blog-category-item{
+        width: 100%;
+        height: 10rem;
+    }
+
+    .m-blog-article-aside{
+        text-align: right;
+        padding-right: 2rem;
+    }
+
+    .article-aside-flex{
+        display: flex;
+        flex-flow: column wrap;
+    }
+
+    .m-blog-banner h1{
+        font-size: 3rem;
+        max-width: 32rem;
+        margin: 0 auto;
     }
 }
 
 // MediaQueries - PC Version - Min 1024px
 // MediaQueries - Page Blog
 @media screen and (min-width: 1024px){
-    
+    .m-blog-category-item{
+        width: 100%;
+        height: 13rem;
+    }
 }

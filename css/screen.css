@@ -233,9 +233,9 @@ input, textarea {
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
-  -webkit-box-align: start;
-      -ms-flex-align: start;
-          align-items: flex-start;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
   padding: 1.5rem 1rem;
 }
 
@@ -1151,13 +1151,21 @@ input, textarea {
   margin-bottom: 1.5rem;
 }
 
+.m-main-blog {
+  background: #f7f7fd;
+}
+
+.m-main-blog .wrap {
+  padding: 0;
+}
+
 .m-blog-banner-background {
   position: relative;
   text-align: center;
   background-image: url("../img/blog/blog-home-banner.jpg");
   background-position: bottom;
   background-repeat: no-repeat;
-  padding: 15rem 1rem;
+  padding: 14rem 1rem;
 }
 
 .m-blog-banner-background h1 {
@@ -1175,9 +1183,10 @@ input, textarea {
 
 .m-blog-banner-background .m-section-button-blog {
   background: #ffffff;
-  width: 10rem;
+  width: 9.5rem;
   height: 2.8rem;
   margin: 1.5rem auto;
+  text-align: center;
   position: relative;
 }
 
@@ -1200,14 +1209,21 @@ input, textarea {
   background: rgba(0, 0, 0, 0.5);
 }
 
+.m-blog-category {
+  padding: 4rem 0;
+}
+
+.m-blog-category-container {
+  padding: 2rem 1rem;
+}
+
 .m-blog-category-item {
   background-image: url("../img/blog/cat-widget1.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
   width: 100%;
-  height: 220px;
-  max-height: auto;
+  height: 14rem;
   position: relative;
 }
 
@@ -1236,11 +1252,13 @@ input, textarea {
   color: #ffffff;
   text-transform: uppercase;
   font-weight: 600;
+  margin: 0;
 }
 
 .m-blog-category-item .category-content p {
   color: #ffffff;
   font-size: 1rem;
+  margin: 0;
 }
 
 .m-blog-category-item .category-content .m-category-line {
@@ -1249,7 +1267,7 @@ input, textarea {
   display: block;
   background: #c4c4c4;
   margin-bottom: 1.5rem;
-  margin: 0 auto;
+  margin: .5rem auto;
 }
 
 .category-item-2 {
@@ -1260,9 +1278,125 @@ input, textarea {
   background-image: url("../img/blog/cat-widget3.jpg");
 }
 
+.m-blog-article-section {
+  padding: 0 1rem;
+}
+
+.article-aside-flex {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: row wrap;
+          flex-flow: row wrap;
+}
+
+.article-aside-flex p {
+  -ms-flex-preferred-size: 50%;
+      flex-basis: 50%;
+  margin: 0;
+  padding: .5rem 0;
+}
+
+.article-aside-flex time {
+  -ms-flex-preferred-size: 50%;
+      flex-basis: 50%;
+  font-weight: 300;
+  color: #777777;
+  padding: .5rem 0;
+}
+
+.article-aside-flex time::after {
+  padding-left: .5rem;
+  font-family: "Font Awesome 5 Free";
+  font-weight: 500;
+  content: "\f073";
+  color: #000000;
+}
+
+.article-aside-flex .article-aside-author::after {
+  padding-left: .5rem;
+  font-family: "Font Awesome 5 Free";
+  font-weight: 500;
+  content: "\f007";
+  color: #000000;
+}
+
+.article-aside-flex .article-aside-views::after {
+  padding-left: .5rem;
+  font-family: "Font Awesome 5 Free";
+  font-weight: 500;
+  content: "\f06e";
+  color: #000000;
+}
+
+.article-aside-flex .article-aside-comments::after {
+  padding-left: .5rem;
+  font-family: "Font Awesome 5 Free";
+  font-weight: 500;
+  content: "\f075";
+  color: #000000;
+}
+
+.m-blog-article-content h2 {
+  font-size: 1.8rem;
+  text-transform: capitalize;
+  font-weight: 600;
+  line-height: 2rem;
+}
+
+.m-blog-article-content .m-section-button-blog {
+  background: #ffffff;
+  width: 9.5rem;
+  height: 2.8rem;
+  margin: 1.5rem auto;
+  text-align: center;
+  margin: 0;
+  margin-bottom: 2rem;
+}
+
+.m-blog-article-content .m-section-button-blog a {
+  height: 2.8rem;
+  line-height: 2.8rem;
+  font-size: 1rem;
+  color: #000000;
+  font-weight: 500;
+  display: block;
+}
+
 @media screen and (min-width: 720px) {
   .m-blog-banner-background {
-    padding: 20rem 0;
+    padding: 17rem 0;
+  }
+  .m-blog-category-item {
+    width: 100%;
+    height: 10rem;
+  }
+  .m-blog-article-aside {
+    text-align: right;
+    padding-right: 2rem;
+  }
+  .article-aside-flex {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-flow: column wrap;
+            flex-flow: column wrap;
+  }
+  .m-blog-banner h1 {
+    font-size: 3rem;
+    max-width: 32rem;
+    margin: 0 auto;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .m-blog-category-item {
+    width: 100%;
+    height: 13rem;
   }
 }
 
