@@ -1165,7 +1165,7 @@ input, textarea {
   background-image: url("../img/blog/blog-home-banner.jpg");
   background-position: bottom;
   background-repeat: no-repeat;
-  padding: 14rem 1rem;
+  padding: 13rem 1rem;
 }
 
 .m-blog-banner-background h1 {
@@ -1363,6 +1363,118 @@ input, textarea {
   color: #000000;
   font-weight: 500;
   display: block;
+}
+
+.m-blog-nav {
+  text-align: center;
+}
+
+.m-blog-nav li {
+  display: inline-block;
+}
+
+.m-blog-nav a {
+  color: #777777;
+  padding: 0 .5rem;
+}
+
+.m-blog-nav a:hover {
+  font-weight: 500;
+  color: #000000;
+}
+
+.m-blog-nav .is-active {
+  display: block;
+  background: #8490ff;
+  color: #ffffff;
+  padding: .3rem .8rem;
+}
+
+.m-blog-nav .is-active:hover {
+  color: #ffffff;
+}
+
+.m-blog-aside {
+  border: 1px solid #dfdfdf;
+  margin: 0 1rem;
+}
+
+.m-blog-search .m-blog-form {
+  text-align: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: row nowrap;
+          flex-flow: row nowrap;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background: #8490ff;
+  border-radius: 3rem;
+  padding: .7rem 1.5rem;
+  margin: 2rem;
+  -webkit-box-sizing: content-box;
+          box-sizing: content-box;
+}
+
+.m-blog-search .m-blog-form-input {
+  border: none;
+  border-radius: 3rem;
+  background: #8490ff;
+  color: #ffffff;
+  font-family: 'poppins', sans-serif;
+  width: 90%;
+  font-size: 1rem;
+}
+
+.m-blog-search .m-blog-form-input::-webkit-input-placeholder {
+  color: white;
+  opacity: 1;
+}
+
+.m-blog-search .m-blog-form-input:-ms-input-placeholder {
+  color: white;
+  opacity: 1;
+}
+
+.m-blog-search .m-blog-form-input::-ms-input-placeholder {
+  color: white;
+  opacity: 1;
+}
+
+.m-blog-search .m-blog-form-input::placeholder {
+  color: white;
+  opacity: 1;
+}
+
+.m-blog-search i {
+  color: #ffffff;
+  width: 10%;
+  text-align: right;
+  padding-left: .5rem;
+}
+
+.m-blog-userInfo {
+  text-align: center;
+}
+
+.m-blog-userInfo .m-blog-userInfo-picture {
+  width: 9rem;
+  height: auto;
+}
+
+.m-blog-userInfo .userNameInfos {
+  font-size: 1.3rem;
+  text-transform: capitalize;
+  color: #000000;
+  font-weight: 600;
+  margin-bottom: 0;
+}
+
+.m-blog-userInfo .userNameTitle {
+  margin-top: 0;
 }
 
 @media screen and (min-width: 720px) {

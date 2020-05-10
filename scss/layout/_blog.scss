@@ -21,7 +21,7 @@
     background-image: url("../img/blog/blog-home-banner.jpg");
     background-position: bottom;
     background-repeat: no-repeat;
-    padding: 14rem 1rem;
+    padding: 13rem 1rem;
 
     h1{
         font-weight: 600;
@@ -176,6 +176,100 @@
     }
 }
 
+// Mini Nav changement page - Section article
+.m-blog-nav{
+    text-align: center;
+    
+    li{
+        display: inline-block;
+    }
+
+    a{
+        color: $text;
+        padding: 0 .5rem;
+    }
+
+    a:hover{
+        font-weight: 500;
+        color: $blogIcon;
+    }
+
+    .is-active{
+        display: block;
+        background: $bannerBg1;
+        color: $buttonBlog;
+        padding: .3rem .8rem;
+    }
+
+    .is-active:hover{
+        color: $buttonBlog;
+    }
+}
+
+// Partie Aside - m-blog-aside
+.m-blog-aside{
+    border: 1px solid $blogBorder;
+    margin: 0 1rem;
+}
+
+.m-blog-search{
+    
+    .m-blog-form{
+        text-align: center;
+        display: flex;
+        flex-flow: row nowrap;
+        align-items: center;
+        background: $bannerBg1;
+        border-radius: 3rem;
+        padding: .7rem 1.5rem;
+        margin: 2rem;
+        box-sizing: content-box
+    }
+
+    .m-blog-form-input{
+        border: none;
+        border-radius: 3rem;
+        background: $bannerBg1;
+        color: $buttonBlog;
+        font-family: 'poppins', sans-serif;
+        width: 90%;
+        font-size: 1rem;
+    }
+
+    .m-blog-form-input::placeholder{
+        color: white;
+        opacity: 1;
+    }
+
+    i{
+        color: $buttonBlog;
+        width: 10%;
+        text-align: right;
+        padding-left: .5rem;
+    }
+}
+
+// Blog - Userinfos
+.m-blog-userInfo{
+    text-align: center;
+
+    .m-blog-userInfo-picture{
+        width: 9rem;
+        height: auto;
+    }
+
+    .userNameInfos{
+        font-size: 1.3rem;
+        text-transform: capitalize;
+        color: $blogTitle;
+        font-weight: 600;
+        margin-bottom: 0;
+    }
+
+    .userNameTitle{
+        margin-top: 0;
+    }
+}
 
 // MediaQueries - Tablette Version - Min 720px
 // MediaQueries - Page Blog
