@@ -1,8 +1,243 @@
 // Page Article - CSS
-
 .m-article-page{
+    padding: 5rem 0;
+    font-size: 1rem;
+    background: $background1;
 
     .m-blog-aside{
         margin: 0;
+    }
+}
+
+.m-article-userInfo-social{
+    i{
+        color: $blogIcon;
+        padding-right: 1rem;
+        padding-top: .5rem;
+    }
+
+    i:hover{
+        color: $bannerBg1;
+    }
+}
+
+.m-blog-article-content{
+    h2{
+        font-size: 1.6rem;
+        font-weight: 600;
+    }
+}
+
+.m-article-frame{
+    background: $color3;
+    padding: 2rem;
+
+    p{
+        margin: 0;
+    }
+}
+
+.m-article-post-illustration{
+    text-align: center;
+    margin-top: 1rem;
+
+    .m-post-illustration-container{
+        margin: 1rem;
+        margin-left: 0;
+    }
+
+    .m-post-illustration-container2{
+        margin: 1rem;
+        margin-right: 0;
+    }
+}
+
+.m-article-post-secondary-text .m-blog-line{
+    margin-top: 6rem;
+    margin-bottom: 1rem;
+}
+
+// Article - Section Previous - Next Post
+.m-article-previousNext{
+    img{
+        width: 60px;
+        height: auto;
+        overflow: auto;
+    }
+
+    h4{
+        margin: 0;
+        color: $title;
+        font-size: 1.2rem;
+        font-weight: 600;
+        text-transform: capitalize;
+    }
+
+    p{
+        margin: 0;
+    }
+}
+
+.m-article-previous-item{
+    margin: 1rem 0;
+
+    img{
+        float: left;
+        padding-right: 1rem;
+    }
+}
+
+.m-article-next-item{
+    text-align: right;
+    margin: 1rem 0;
+
+    img{
+        float: right;
+        padding-left: 1rem;
+    }
+}
+
+// Article - Section commentaires - m-article-comments
+.m-article-comments{
+    border: 1px solid $blogBorder;
+    padding: .5rem;
+    margin: 2rem 0;
+
+    img{
+        width: 60px;
+        height: auto;
+    }
+
+    h3{
+        text-align: center;
+        font-weight: 600;
+        text-transform: capitalize;
+        font-size: 1.3rem;
+        margin: 3rem 0;
+    }
+
+    p{
+        font-size: .8rem;
+    }
+}
+
+.m-article-comments-item{
+    padding: 1rem 0;
+}
+
+.m-article-comments-item:last-child{
+    padding-bottom: 3rem;
+}
+
+.m-article-comments-item-text{
+    padding-left: 1rem;
+
+    h4{
+        margin: 0;
+        font-weight: 600;
+        text-transform: capitalize;
+        font-size: 1rem;
+        line-height: 1.1rem;
+        letter-spacing: -0.2px;
+    }
+
+    time{
+        color: $text;
+        font-size: .9rem;
+        opacity: .5;
+    }
+}
+
+.m-article-comments-button{
+    text-align: center;
+    border: 1px solid $blogBorder;
+
+
+    a{
+        color: $title;
+        text-transform: uppercase;
+        font-weight: 600;
+        display: block;
+        padding : .5rem 0;
+        background: $buttonBlog;
+    }
+
+    a:hover{
+        color: $buttonBlog;
+        background: $bannerBg1;
+    }
+}
+
+// Sous-commentaire - Modification de la grille et du margin
+.m-subcomment{
+    img{
+        margin-left: 2rem;
+    }
+}
+
+// MediaQueries - Tablette Version - Min 720px
+// MediaQueries - Page Article
+@media screen and (min-width: 720px){
+
+    .m-article-userInfo-social{
+
+        i{
+            padding-right: .7rem;
+        }
+    }
+
+    .m-article-comments{
+        padding: 0 2rem;
+    }
+
+    .m-article-comments-item-text{
+        padding-left: 3rem;
+    }
+
+    .m-subcomment{
+        .m-article-comments-item-text{
+            padding-left: 5rem;
+        }
+    }
+
+    .m-article-content{
+        margin-right: 1rem;
+    }
+
+    .m-article-comments-item-text{
+
+        h4{
+            font-size: 1.1rem;
+            line-height: 1.5rem;
+        }
+
+        time{
+            font-size: 1rem;
+            }
+
+        p{
+            font-size: 1rem;
+        }
+    }
+}
+
+// MediaQueries - Desktop Version - Min 1024px
+// MediaQueries - Page Article
+@media screen and (min-width: 1024px){
+
+    .m-article-userInfo-social{
+        i{
+            padding-right: 1rem;
+        }
+    }
+
+    .m-article-comments-item-text{
+        padding-left: 1.5rem;
+    }
+
+    .m-subcomment{
+        .m-article-comments-item-text{
+            padding-left: 3.5rem;
+        }
     }
 }
