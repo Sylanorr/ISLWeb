@@ -9,6 +9,13 @@
     }
 }
 
+.m-section-contact-article{
+    h1{
+        line-height: 3.8rem;
+        padding-bottom: 1rem;
+    }
+}
+
 .m-article-userInfo-social{
     i{
         color: $blogIcon;
@@ -106,6 +113,7 @@
     img{
         width: 60px;
         height: auto;
+        padding-top: .2rem;
     }
 
     h3{
@@ -130,7 +138,7 @@
 }
 
 .m-article-comments-item-text{
-    padding-left: 1rem;
+    margin-left: 1rem;
 
     h4{
         margin: 0;
@@ -172,7 +180,41 @@
 .m-subcomment{
     img{
         margin-left: 2rem;
+        margin-right: 1rem;
     }
+}
+
+// Formulaire - Leave a comment
+.m-article-commentForm{
+    border: 1px solid $blogBorder;
+    padding: 3rem 1rem;
+    margin: 4rem 0;
+
+    h3{
+        text-transform: capitalize;
+        font-weight: 600;
+        font-size: 1.3rem;
+        text-align: center;
+        padding-bottom: 2rem;
+    }
+}
+
+.m-loginform-item{
+    input{
+        border: none;
+    }
+
+    textarea{
+        border: none;
+    }
+}
+
+.m-loginform-sendbutton{
+    text-align: center;
+
+    input{
+        font-size: 1rem;
+    };
 }
 
 // MediaQueries - Tablette Version - Min 720px
@@ -182,7 +224,8 @@
     .m-article-userInfo-social{
 
         i{
-            padding-right: .7rem;
+            padding-right: 0rem;
+            padding-left: .7rem;
         }
     }
 
@@ -191,12 +234,12 @@
     }
 
     .m-article-comments-item-text{
-        padding-left: 3rem;
+        padding-left: 2rem;
     }
 
     .m-subcomment{
         .m-article-comments-item-text{
-            padding-left: 5rem;
+            padding-left: 4rem;
         }
     }
 
@@ -219,6 +262,17 @@
             font-size: 1rem;
         }
     }
+
+    .m-article-comments{
+
+     img{
+            padding-top: .3rem;
+        }
+    }
+
+    .m-article-commentForm{
+        padding: 3rem 1rem;
+    }
 }
 
 // MediaQueries - Desktop Version - Min 1024px
@@ -226,18 +280,27 @@
 @media screen and (min-width: 1024px){
 
     .m-article-userInfo-social{
+
         i{
-            padding-right: 1rem;
+            padding-right: 0rem;
+            padding-left: 1rem;
         }
     }
 
+    .m-article-comments{
+
+        img{
+               padding-top: .2rem;
+           }
+       }
+
     .m-article-comments-item-text{
-        padding-left: 1.5rem;
+        padding-left: 1rem;
     }
 
     .m-subcomment{
         .m-article-comments-item-text{
-            padding-left: 3.5rem;
+            padding-left: 3rem;
         }
     }
 }

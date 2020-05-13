@@ -1661,6 +1661,8 @@ input, textarea {
   width: 40%;
   overflow: auto;
   cursor: pointer;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
 }
 
 .m-blog-newsletter-form i {
@@ -1780,6 +1782,11 @@ input, textarea {
   margin: 0;
 }
 
+.m-section-contact-article h1 {
+  line-height: 3.8rem;
+  padding-bottom: 1rem;
+}
+
 .m-article-userInfo-social i {
   color: #000000;
   padding-right: 1rem;
@@ -1870,6 +1877,7 @@ input, textarea {
 .m-article-comments img {
   width: 60px;
   height: auto;
+  padding-top: .2rem;
 }
 
 .m-article-comments h3 {
@@ -1893,7 +1901,7 @@ input, textarea {
 }
 
 .m-article-comments-item-text {
-  padding-left: 1rem;
+  margin-left: 1rem;
 }
 
 .m-article-comments-item-text h4 {
@@ -1932,20 +1940,52 @@ input, textarea {
 
 .m-subcomment img {
   margin-left: 2rem;
+  margin-right: 1rem;
+}
+
+.m-article-commentForm {
+  border: 1px solid #dfdfdf;
+  padding: 3rem 1rem;
+  margin: 4rem 0;
+}
+
+.m-article-commentForm h3 {
+  text-transform: capitalize;
+  font-weight: 600;
+  font-size: 1.3rem;
+  text-align: center;
+  padding-bottom: 2rem;
+}
+
+.m-loginform-item input {
+  border: none;
+}
+
+.m-loginform-item textarea {
+  border: none;
+}
+
+.m-loginform-sendbutton {
+  text-align: center;
+}
+
+.m-loginform-sendbutton input {
+  font-size: 1rem;
 }
 
 @media screen and (min-width: 720px) {
   .m-article-userInfo-social i {
-    padding-right: .7rem;
+    padding-right: 0rem;
+    padding-left: .7rem;
   }
   .m-article-comments {
     padding: 0 2rem;
   }
   .m-article-comments-item-text {
-    padding-left: 3rem;
+    padding-left: 2rem;
   }
   .m-subcomment .m-article-comments-item-text {
-    padding-left: 5rem;
+    padding-left: 4rem;
   }
   .m-article-content {
     margin-right: 1rem;
@@ -1960,17 +2000,27 @@ input, textarea {
   .m-article-comments-item-text p {
     font-size: 1rem;
   }
+  .m-article-comments img {
+    padding-top: .3rem;
+  }
+  .m-article-commentForm {
+    padding: 3rem 1rem;
+  }
 }
 
 @media screen and (min-width: 1024px) {
   .m-article-userInfo-social i {
-    padding-right: 1rem;
+    padding-right: 0rem;
+    padding-left: 1rem;
+  }
+  .m-article-comments img {
+    padding-top: .2rem;
   }
   .m-article-comments-item-text {
-    padding-left: 1.5rem;
+    padding-left: 1rem;
   }
   .m-subcomment .m-article-comments-item-text {
-    padding-left: 3.5rem;
+    padding-left: 3rem;
   }
 }
 
