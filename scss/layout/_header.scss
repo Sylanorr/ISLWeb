@@ -9,7 +9,7 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 1.5rem 1rem;
+    padding: 1.5rem 0rem;
 
     .main-logoLink-flex{
         display: flex;
@@ -93,7 +93,7 @@
     }
 
     .l-main-header-flex{
-        padding: 1rem;
+        padding: 1rem 0;
     }
 
     //Taille Logo ISLWeb
@@ -129,7 +129,7 @@
 @media screen and (min-width: 1024px){
 
     .l-main-header-flex{
-        padding: 1.5rem 1rem;
+        padding: 1.5rem 0rem;
     }
 
     //Taille Logo ISLWeb

@@ -21,9 +21,13 @@
 
 .l-main-footer-social{
     i{
-        color: $bannerBg1;
-        font-size: 1.5rem;
+        color: $buttonBlog;
+        font-size: 1rem;
         padding-right: 1rem;
+    }
+
+    i:hover{
+        color: $bannerBg1;
     }
 }
 
@@ -73,7 +77,7 @@
 // MediaQueries - Tablette Version - Min 720px
 @media screen and (min-width: 720px){
     .l-main-footer-item{
-        padding: 0 2rem
+        padding: 0 1rem
     }
 
     .l-main-footer-copyright{
@@ -81,10 +85,24 @@
         padding-top: 2rem;
         opacity: 0.8;
     }
+
+    .l-main-footer-social{
+        i{
+            color: $buttonBlog;
+            font-size: .9rem;
+            padding-right: .6rem;
+        }
+    }
 }
 
 // MediaQueries - Page Home - Desktop Version
 // Pas de modification car identique à la version tablette
 @media screen and (min-width: 1024px){
 
+    .l-main-footer-social{
+        i{
+            font-size: 1rem;
+            padding-right: 1rem;
+        }
+    }
 }
