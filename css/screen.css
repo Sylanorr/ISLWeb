@@ -269,7 +269,7 @@ input, textarea {
   display: flex;
   position: absolute;
   z-index: 2;
-  top: 0;
+  top: -1rem;
   right: 0;
 }
 
