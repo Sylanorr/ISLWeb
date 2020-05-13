@@ -14,3 +14,15 @@ if(menuHam != null && menuMain!= null) {
 else {
 	alert('un des deux éléments pas présents');
 }
+
+// Fonction pour changer icone du menu Hamburger au clic
+function changeImage() {
+	var minus = document.getElementsByClassName("imgClickAndChange")[0];
+
+	if(minus.src == "https://sylanorr.github.io/ISLWeb/img/hamburgerMenu.svg"){
+		minus.src = "https://sylanorr.github.io/ISLWeb/img/hamburgerMenuExit.svg";
+	}
+	else {
+		minus.src = "https://sylanorr.github.io/ISLWeb/img/hamburgerMenu.svg";
+	}
+}

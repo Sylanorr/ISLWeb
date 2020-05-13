@@ -271,12 +271,11 @@ input, textarea {
 
 .l-main-nav a {
   text-decoration: none;
-  color: #000000;
+  color: #ffffff;
   display: block;
-  padding: 2rem;
+  padding-bottom: 1.2rem;
   text-transform: uppercase;
-  letter-spacing: 2px;
-  font-weight: 500;
+  font-size: .9rem;
 }
 
 .l-main-nav .is-active-menu {
@@ -284,27 +283,18 @@ input, textarea {
 }
 
 .l-main-nav ul {
-  padding: 0;
+  padding: 2rem 1rem;
   margin: 0;
-}
-
-.l-main-nav li {
-  border-bottom: 1px solid #8490ff;
-}
-
-.l-main-nav li:last-child {
-  border-bottom: none;
 }
 
 .l-main-nav.is-active {
   display: block;
   position: absolute;
-  top: 80px;
-  right: 0;
-  background: #f7f7fd;
-  width: 100%;
+  top: 0;
+  left: 0;
+  background: rgba(0, 0, 0, 0.9);
+  width: 75%;
   height: 100%;
-  text-align: center;
   z-index: 10;
 }
 
@@ -324,6 +314,9 @@ input, textarea {
   }
   .l-main-nav {
     display: block;
+  }
+  .l-main-nav ul {
+    padding: 0;
   }
   .l-main-nav li {
     display: inline-block;

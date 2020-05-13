@@ -1,3 +1,71 @@
-<?xml version="1.0" ?><!DOCTYPE svg  PUBLIC '-//W3C//DTD SVG 1.1//EN'  'http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd'><svg id="Layer_1" style="enable-background:new 0 0 64 64;" version="1.1" viewBox="0 0 64 64" xml:space="preserve" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><style type="text/css">
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   id="Layer_1"
+   style="enable-background:new 0 0 64 64;"
+   version="1.1"
+   viewBox="0 0 64 64"
+   xml:space="preserve"
+   sodipodi:docname="hamburgerMenu.svg"
+   inkscape:version="0.92.3 (2405546, 2018-03-11)"><metadata
+     id="metadata15"><rdf:RDF><cc:Work
+         rdf:about=""><dc:format>image/svg+xml</dc:format><dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" /></cc:Work></rdf:RDF></metadata><defs
+     id="defs13" /><sodipodi:namedview
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1"
+     objecttolerance="10"
+     gridtolerance="10"
+     guidetolerance="10"
+     inkscape:pageopacity="0"
+     inkscape:pageshadow="2"
+     inkscape:window-width="1920"
+     inkscape:window-height="1017"
+     id="namedview11"
+     showgrid="false"
+     inkscape:zoom="14.75"
+     inkscape:cx="26.552973"
+     inkscape:cy="30.76447"
+     inkscape:window-x="-8"
+     inkscape:window-y="-8"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="g8" /><style
+     type="text/css"
+     id="style2">
 	.st0{fill:#134563;}
-</style><g><g id="Navicon" transform="translate(330.000000, 232.000000)"><polygon class="st0" id="Fill-19" points="-321.8,-219 -274.3,-219 -274.3,-212.7 -321.8,-212.7    "/><polygon class="st0" id="Fill-20" points="-321.8,-203.2 -274.3,-203.2 -274.3,-196.8 -321.8,-196.8    "/><polygon class="st0" id="Fill-21" points="-321.8,-187.3 -274.3,-187.3 -274.3,-181 -321.8,-181    "/></g></g></svg>
+</style><g
+     id="g8"
+     style="fill:#000000"><g
+       id="g845"
+       transform="translate(0.23220396)"><rect
+         ry="1.8644068"
+         rx="1.9491526"
+         y="13"
+         x="7.8355927"
+         height="3.7288136"
+         width="47.864407"
+         id="rect834"
+         style="fill:#000000;fill-opacity:1;stroke:none;stroke-opacity:1" /><rect
+         style="fill:#000000;fill-opacity:1;stroke:none;stroke-opacity:1"
+         id="rect836"
+         width="47.864407"
+         height="3.7288136"
+         x="7.8355927"
+         y="29.952541"
+         rx="1.5423728"
+         ry="1.8644068" /><rect
+         ry="1.8644068"
+         rx="1.7457627"
+         y="47.271187"
+         x="7.8355927"
+         height="3.7288136"
+         width="47.864407"
+         id="rect840"
+         style="fill:#000000;fill-opacity:1;stroke:none;stroke-opacity:1" /></g></g></svg>
