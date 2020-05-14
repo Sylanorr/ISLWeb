@@ -574,7 +574,7 @@ input, textarea {
 }
 
 .m-section-latestPosts a {
-  color: #000000;
+  color: #222222;
 }
 
 .m-section-latestPosts .latestPosts-subtitle {
@@ -898,9 +898,10 @@ input, textarea {
   top: 0.8rem;
 }
 
-.m-infos-text-item h3 {
+.m-infos-text-item strong {
   font-style: normal;
-  margin: 0;
+  font-weight: 300;
+  font-size: 1.2rem;
 }
 
 .m-infos-text-item p {
@@ -943,7 +944,7 @@ input, textarea {
   margin: 1rem;
   font-size: 1rem;
   border: 1px solid #c4c4c4;
-  color: #000000;
+  color: #222222;
 }
 
 .m-loginform-sendbutton {
@@ -1119,7 +1120,7 @@ input, textarea {
 
 .feedback-quote .feedback-quote-author {
   font-weight: 600;
-  color: #000000;
+  color: #222222;
   margin-top: 1rem;
   font-size: 1.2rem;
 }
@@ -1207,7 +1208,7 @@ input, textarea {
   height: 2.8rem;
   line-height: 2.8rem;
   font-size: 1rem;
-  color: #000000;
+  color: #222222;
   font-weight: 500;
   display: block;
 }
@@ -1325,7 +1326,7 @@ input, textarea {
   font-family: "Font Awesome 5 Free";
   font-weight: 500;
   content: "\f073";
-  color: #000000;
+  color: #222222;
 }
 
 .article-aside-flex .article-aside-author::after {
@@ -1333,7 +1334,7 @@ input, textarea {
   font-family: "Font Awesome 5 Free";
   font-weight: 500;
   content: "\f007";
-  color: #000000;
+  color: #222222;
 }
 
 .article-aside-flex .article-aside-views::after {
@@ -1341,7 +1342,7 @@ input, textarea {
   font-family: "Font Awesome 5 Free";
   font-weight: 500;
   content: "\f06e";
-  color: #000000;
+  color: #222222;
 }
 
 .article-aside-flex .article-aside-comments::after {
@@ -1349,11 +1350,11 @@ input, textarea {
   font-family: "Font Awesome 5 Free";
   font-weight: 500;
   content: "\f075";
-  color: #000000;
+  color: #222222;
 }
 
 .m-blog-article-content a {
-  color: #000000;
+  color: #222222;
 }
 
 .m-blog-article-content h2 {
@@ -1377,7 +1378,7 @@ input, textarea {
   height: 2.8rem;
   line-height: 2.8rem;
   font-size: 1rem;
-  color: #000000;
+  color: #222222;
   font-weight: 500;
   display: block;
 }
@@ -1403,7 +1404,7 @@ input, textarea {
 
 .m-blog-nav a:hover {
   font-weight: 500;
-  color: #000000;
+  color: #222222;
 }
 
 .m-blog-nav .is-active {
@@ -1495,7 +1496,7 @@ input, textarea {
 .m-blog-userInfo .userNameInfos {
   font-size: 1.3rem;
   text-transform: capitalize;
-  color: #000000;
+  color: #222222;
   font-weight: 600;
   margin-bottom: 0;
   padding-bottom: 0;
@@ -1511,7 +1512,7 @@ input, textarea {
 }
 
 .m-blog-userInfo i {
-  color: #000000;
+  color: #222222;
   padding: 0 .6rem;
 }
 
@@ -1581,7 +1582,7 @@ input, textarea {
   line-height: 1.1rem;
   padding-bottom: .5rem;
   text-transform: capitalize;
-  color: #000000;
+  color: #222222;
 }
 
 .m-blog-popularPosts-item h4:hover {
@@ -1806,7 +1807,7 @@ input, textarea {
 }
 
 .m-article-userInfo-social i {
-  color: #000000;
+  color: #222222;
   padding-right: 1rem;
   padding-top: .5rem;
 }
@@ -1857,7 +1858,7 @@ input, textarea {
 
 .m-article-previousNext h4 {
   margin: 0;
-  color: #000000;
+  color: #222222;
   font-size: 1.2rem;
   font-weight: 600;
   text-transform: capitalize;
@@ -1943,7 +1944,7 @@ input, textarea {
 }
 
 .m-article-comments-button a {
-  color: #000000;
+  color: #222222;
   text-transform: uppercase;
   font-weight: 600;
   display: block;
