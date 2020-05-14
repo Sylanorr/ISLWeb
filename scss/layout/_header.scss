@@ -34,8 +34,10 @@
         display: flex;
         position: absolute;
         z-index: 2;
-        top: -1rem;
+        top: 0;
         right: 0;
+        -webkit-transform: translate(0,-50%);
+        -moz-transform: translate(0,0);
     }
 }
 
