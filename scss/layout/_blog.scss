@@ -15,10 +15,11 @@
 }
 
 //Banner Blog
+// Optimisation de l'image de fond Background-Image par l'utilisation de 3 résolutions différentes via MediaQueries (pas d'utilisation de Src-set car mis dans le css et pas img)
 .m-blog-banner-background{
     position: relative;
     text-align: center;
-    background-image: url("../img/blog/blog-home-banner.jpg");
+    background-image: url("../img/blog/blog-home-banner-720w.jpg");
     background-position: bottom;
     background-repeat: no-repeat;
     padding: 13rem 1rem;
@@ -480,6 +481,7 @@
 @media screen and (min-width: 720px){
     .m-blog-banner-background{
         padding: 15rem 0;
+        background-image: url("../img/blog/blog-home-banner-1024w.jpg");
     }
 
     .m-blog-category-item{
@@ -547,5 +549,10 @@
             width: 40%;
             overflow: auto;
         }
+    }
+
+    //Banner résolution Maximum
+    .m-blog-banner-background{
+        background-image: url("../img/blog/blog-home-banner-1920w.jpg");
     }
 }

@@ -349,7 +349,7 @@ input, textarea {
     color: #222222;
     letter-spacing: 0;
     padding: 0;
-    padding-left: 1rem;
+    margin-left: 1rem;
     font-size: 12px;
     font-weight: 500;
   }
@@ -475,13 +475,13 @@ input, textarea {
 .m-services-counter-item p {
   color: #fff;
   font-size: 16px;
-  font-weight: 400;
   margin: 0;
 }
 
 .m-services-counter-item .counter-item-text {
   font-size: 3rem;
-  font-weight: 700;
+  font-weight: 600;
+  letter-spacing: -0.5px;
 }
 
 .m-section-latestProjects {
@@ -574,6 +574,8 @@ input, textarea {
 .m-section-latestPosts h2 {
   text-transform: uppercase;
   font-weight: 600;
+  font-size: 1.3rem;
+  line-height: 1.5rem;
 }
 
 .m-section-latestPosts a {
@@ -608,6 +610,8 @@ input, textarea {
 .m-latestPosts-article-info h3 {
   margin: 0;
   padding-left: .5rem;
+  font-weight: 300;
+  font-size: 1rem;
 }
 
 .m-latestPosts-article-info i {
@@ -1005,7 +1009,7 @@ input, textarea {
 
 .m-section-contact-skillsBar p {
   text-align: right;
-  font-weight: 400;
+  font-weight: 300;
   margin-bottom: .4rem;
 }
 
@@ -1179,7 +1183,7 @@ input, textarea {
 .m-blog-banner-background {
   position: relative;
   text-align: center;
-  background-image: url("../img/blog/blog-home-banner.jpg");
+  background-image: url("../img/blog/blog-home-banner-720w.jpg");
   background-position: bottom;
   background-repeat: no-repeat;
   padding: 13rem 1rem;
@@ -1738,6 +1742,7 @@ input, textarea {
 @media screen and (min-width: 720px) {
   .m-blog-banner-background {
     padding: 15rem 0;
+    background-image: url("../img/blog/blog-home-banner-1024w.jpg");
   }
   .m-blog-category-item {
     width: 100%;
@@ -1791,6 +1796,9 @@ input, textarea {
     height: 100%;
     width: 40%;
     overflow: auto;
+  }
+  .m-blog-banner-background {
+    background-image: url("../img/blog/blog-home-banner-1920w.jpg");
   }
 }
 

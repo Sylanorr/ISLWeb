@@ -98,13 +98,13 @@
     p{
         color: $color3;
         font-size: 16px;
-        font-weight: 400;
         margin: 0;
     }
 
     .counter-item-text{
         font-size: 3rem;
-        font-weight: 700;
+        font-weight: 600;
+       letter-spacing: -0.5px;
     }
 }
 
@@ -189,6 +189,8 @@
     h2{
         text-transform: uppercase;
         font-weight: 600;
+        font-size: 1.3rem;
+        line-height: 1.5rem;
     }
 
     a{
@@ -221,6 +223,8 @@
     h3{
         margin: 0;
         padding-left: .5rem;
+        font-weight: 300;
+        font-size: 1rem;
     }
 
     i{
@@ -453,7 +457,6 @@
     }
 
     .m-latestPosts-article-info{
-
         h3,.article-info-date,p{
             font-size: 1rem;
         }
